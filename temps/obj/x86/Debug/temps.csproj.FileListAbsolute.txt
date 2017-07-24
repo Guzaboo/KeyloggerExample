@@ -1,0 +1,12 @@
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\bin\x86\Debug\temps.exe.config
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\bin\x86\Debug\temps.exe
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\bin\x86\Debug\temps.pdb
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\bin\x86\Debug\MouseKeyboardActivityMonitor.dll
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\obj\x86\Debug\temps.exe
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\obj\x86\Debug\temps.pdb
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\obj\x86\Debug\temps.csprojResolveAssemblyReference.cache
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\bin\x86\Debug\Gma.System.MouseKeyHook.dll
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\obj\x86\Debug\Form1.resources
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\obj\x86\Debug\temps.csproj.GenerateResource.Cache
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\bin\x86\Debug\Newtonsoft.Json.xml

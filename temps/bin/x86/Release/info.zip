@@ -1,0 +1,139 @@
+7/24/2017 10:13:02 AM
+Clipboard: Skip to content
+
+
+This repository
+ 
+Pull requests 
+Issues 
+Marketplace 
+Gist
+
+
+
+Sign out 
+
+
+ Watch 
+1 
+ Star 
+0 
+ Fork 
+1 
+
+iblacksand/VulnerabilityDocumentation 
+ Code 
+ Issues 0 
+ Pull requests 0 
+ Projects 0 
+ Wiki 
+Insights  
+Branch: master 
+Find file 
+Copy path
+VulnerabilityDocumentation/Documentation.md 
+e501df8 an hour ago 
+ iblacksand Add images to readme 
+2 contributors 
+ 
+ 
+ 
+Raw
+Blame
+History
+   
+104 lines (63 sloc) 5.21 KB 
+Vulnerability Documentation
+This is the documentation to test vulnerabilities in password managers found in the paper Analysis on the Security and Use of Password Managers. We have found five successful attacks that exploit vulnerabilities in Passbolt, Padlock and Encryptr.
+Attacks
+Userscripts 
+Passbolt Fake Extension Installer
+Padlock Data Reset
+Padlock Access Remover
+User Input Attacks 
+Keylogger Attack
+Clipboard Reader
+Installation
+Setup
+Stopping the Program
+Userscripts
+Before you start using any of the userscript attacks, you need to use a userscript manager.
+For Chrome, use Tampermonkey.
+For Firefox, use Greasemonkey
+Installing Scripts
+Tampermonkey and Greasemonkey should automatically install the userscripts when you click the given install link. If you have trouble installing any userscript look at the wiki for your userscript manager.
+Tampermonkey - https://tampermonkey.net/faq.php#Q102
+Greasemonkey - https://wiki.greasespot.net/Greasemonkey_Manual:Installing_Scripts.
+Firefox is preferred because all the scripts will execute fully on Firefox.
+Passbolt Fake Extension Installer
+Install
+This script will change all links that download the passbolt extension to download a random script(we choose NoScript). For this to work you need to use Firefox(See Userscripts for more info).
+After you install the program, you can use your own Passbolt server(look at Passbolt's medium blog for a tutorial on how to set it up), or you can use Passbolt's demo server. Make sure that you don't have Passbolt's extension installed, or else no links will show.
+Go to your server's login page.(For Passbolt's demo this is demo.passbolt.com)
+Hover over the link that says Download it here
+
+Look at the bottom left and notice that Firefox says the link goes to https://www.passbolt.com/download/firefox
+
+Padlock Data Reset
+Padlock Access Remover
+User Input Attacks
+Both user input attacks were built in C# for use only on Windows devices. They work in much the same way. Both of the attacks save plain-text logs with timestamps. Every 10 minutes, the attacks send the logs to our email and delete them from the victim's computer.
+Keylogger Attack
+The keylogger saves every key press and click into a plain-text file. It attaches a timestamp at the beginning of each log and after 30 seconds of inactivity.
+Clipboard Reader
+The clipboard reader checks once every second to see if the contents of the clipboard have changed. Every time it detects a change, it logs the timestamp and clipboard contents.
+Installation
+Both of these attacks can be hidden in the installation of a different program and set up to run every time Windows boots up. For our purposes, we combined both attacks into a single installation.
+In order to test, first go to this link and download one of the below files:
+Manual-start program: download loggers.zip
+Windows-startup installer: download setup.exe
+If you download the manual-start, unzip the file and skip to Setup
+If you download the installer, the files will be saved in the following location: 
+C:\Users\<WINDOWS ACCOUNT NAME>\AppData\Local\Fake Microsoft Process
+Setup
+In the folder where you saved the file should be a file called config.json 
+Enter in your email and password. The program will send you emails from yourself with the logs attached. You must use a gmail account. Example:
+{
+    "email": "exampleaccount@gmail.com",
+    "password": "examplePassw0rd"
+}
+Next you must click this link to allow less secure apps.
+Now double click temps.exe to run the program. For testing purposes we have set the program to email you every 40 seconds instead of 10 minutes, so type, copy/paste, etc and check your email after 40 seconds.
+Stopping the Program
+When you are done testing, press Ctrl + Alt + Delete to open Task Manager. Look for temps under background processes and end the process.
+If you used the Windows-startup installer and you want to remove it from your startup processes, press Ctrl + Alt + Delete to open Task Manager. Click on the Startup tab on the top bar of Task Manager. Click on temps and click Disable.
+Contact GitHub API Training Shop Blog About 
+
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
+Click
+Click
+Click
+Click
+Click
+Click
+ Control ac
+Click
+Click
+Click
+ Control c
+Clipboard: on the link and press allow
+Click
+Click
+Click
+it didn't commit earlier
+Click
+DoubleClick
+four times
+Click
+ so I'm doing it again I guess
+Click
+Click
+Click
+Click
+Click
+Click
+Click
+Click
+Click
+DoubleClick
+Click

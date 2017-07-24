@@ -1,0 +1,10 @@
+c:\users\root\documents\visual studio 2017\Projects\temps\temps\obj\Debug\temps.csprojResolveAssemblyReference.cache
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\bin\Debug\temps.exe.config
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\bin\Debug\temps.exe
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\bin\Debug\temps.pdb
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\bin\Debug\MouseKeyboardActivityMonitor.dll
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\obj\Debug\temps.exe
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\obj\Debug\temps.pdb
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\bin\Debug\Gma.System.MouseKeyHook.dll
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\obj\Debug\Form1.resources
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\obj\Debug\temps.csproj.GenerateResource.Cache

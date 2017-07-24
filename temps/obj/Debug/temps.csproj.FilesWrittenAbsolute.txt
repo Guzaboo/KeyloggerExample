@@ -1,0 +1,9 @@
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\obj\Debug\.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\obj\Debug\Form1.resources
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\bin\Debug\MouseKeyboardActivityMonitor.dll
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\bin\Debug\temps.exe.config
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\bin\Debug\temps.pdb
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\bin\Debug\temps.exe
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\obj\Debug\temps.exe
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\obj\Debug\temps.pdb
+C:\Users\root\Documents\Visual Studio 2017\Projects\temps\temps\bin\Debug\Gma.System.MouseKeyHook.dll

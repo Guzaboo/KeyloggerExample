@@ -1,0 +1,7 @@
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\bin\x64\Debug\temps.exe.config
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\bin\x64\Debug\temps.exe
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\bin\x64\Debug\temps.pdb
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\bin\x64\Debug\MouseKeyboardActivityMonitor.dll
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\obj\x64\Debug\temps.exe
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\obj\x64\Debug\temps.pdb
+C:\Users\root\documents\visual studio 2017\Projects\temps\temps\obj\x64\Debug\temps.csprojResolveAssemblyReference.cache
